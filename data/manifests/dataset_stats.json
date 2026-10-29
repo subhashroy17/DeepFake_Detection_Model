@@ -1,0 +1,26 @@
+{
+    "dataset_source": "kshitizbhargava/deepfake-face-images",
+    "total_images": 800,
+    "splits": {
+        "train": {
+            "real": 250,
+            "fake": 250,
+            "total": 500
+        },
+        "val": {
+            "real": 50,
+            "fake": 50,
+            "total": 100
+        },
+        "test": {
+            "real": 50,
+            "fake": 50,
+            "total": 100
+        },
+        "unseen_test": {
+            "real": 50,
+            "fake": 50,
+            "total": 100
+        }
+    }
+}

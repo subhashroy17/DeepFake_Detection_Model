@@ -1,0 +1,31 @@
+{
+    "status": "completed",
+    "timestamp": "2026-10-27 11:22:13",
+    "training_time_seconds": 38.0,
+    "total_epochs_trained": 4,
+    "fine_tuning_applied": true,
+    "fine_tune_start_epoch": 3,
+    "final_metrics": {
+        "train_accuracy": 0.724,
+        "val_accuracy": 0.63,
+        "train_loss": 0.5603,
+        "val_loss": 0.6797
+    },
+    "sample_counts": {
+        "train_samples": 500,
+        "train_distribution": {
+            "REAL": 250,
+            "FAKE": 250
+        },
+        "val_samples": 100,
+        "val_distribution": {
+            "REAL": 50,
+            "FAKE": 50
+        }
+    },
+    "saved_artifacts": {
+        "model_path": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Deep_Learning_project\\models\\mobilenetv2_deepfake_detector.keras",
+        "history_path": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Deep_Learning_project\\results\\training_history.json",
+        "curves_plot_path": "C:\\Users\\ASUS\\OneDrive\\Desktop\\Deep_Learning_project\\results\\plots\\training_curves.png"
+    }
+}
